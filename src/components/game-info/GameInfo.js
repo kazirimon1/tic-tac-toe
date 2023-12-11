@@ -10,7 +10,7 @@ const GameInfo = ({ status, winner, xIsNext }) => {
       ) : winner && status === 'Winner: X' ? (
         <h3 className="player-x">Nice! I won! </h3>
       ) : (
-        <h3 className="player-o">Wohoo! I made it!</h3>
+        <h3 className="player-o">Wohoo! I made IT!</h3>
       )}
       <img src={Friends} alt="Player X and Player O" />
     </section>
